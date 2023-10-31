@@ -17,7 +17,7 @@ Implementation of Moving Average Model Using Python.
 10) Show the plot
 
 ## PROGRAM:
-
+```
 python
 
 import os
@@ -65,7 +65,7 @@ plt.plot(electricitytimeseries[1:50],marker='o',color='black')
 plt.xticks(rotation=30)
 plt.plot(fit1.fittedvalues,marker='o',color='blue')
 plt.plot(fit2.fittedvalues,marker='o',color='red')
-
+```
 ## OUTPUT:
 
 ### Moving Average
